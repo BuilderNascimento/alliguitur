@@ -1,0 +1,9 @@
+{
+  "name": "alliguitur-site",
+  "private": true,
+  "description": "Site institucional MVP — Alligui Tur",
+  "scripts": {
+    "start": "npx --yes serve -l 3333 .",
+    "serve": "npx --yes serve -l 3333 ."
+  }
+}

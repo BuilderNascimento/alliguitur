@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato | Alligui TUR — Andirá/PR</title>
+    <meta
+      name="description"
+      content="Endereço, telefones e WhatsApp da Alligui TUR em Andirá/PR. Envie mensagem pelo site e continue pelo WhatsApp."
+    />
+    <meta
+      name="keywords"
+      content="contato Alligui TUR, telefone turismo Andirá, endereço agência viagens Andirá"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contato | Alligui TUR" />
+    <meta
+      property="og:description"
+      content="Fale com a Alligui TUR — Andirá, Paraná."
+    />
+    <meta
+      property="og:image"
+      content="https://placehold.co/1200x630/1A3C6E/E8A020/png?text=Contato+Alligui+Tur"
+    />
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=Outfit:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="site-top">
+      <div class="top-bar">
+        <div class="container top-bar__inner">
+          <a href="tel:+5543996112665"><i class="fa-solid fa-phone" aria-hidden="true"></i> (43) 99611-2665</a>
+          <a href="mailto:alliguitur@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> alliguitur@gmail.com</a>
+        </div>
+      </div>
+      <header class="site-header">
+        <div class="container header-inner">
+          <a
+            href="index.html"
+            class="logo logo--image"
+            aria-label="Alligui TUR — início"
+          >
+            <img
+              src="publicas/LOGO.png"
+              alt=""
+              class="logo__img"
+              width="200"
+              height="56"
+            />
+          </a>
+          <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+          </button>
+          <nav class="main-nav" aria-label="Principal">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="destinos.html">Destinos</a></li>
+              <li><a href="fretamento.html">Fretamento</a></li>
+              <li><a href="orcamento.html">Orçamento</a></li>
+              <li><a href="frota.html">Nossa Frota</a></li>
+              <li><a href="sobre.html">Sobre Nós</a></li>
+              <li><a href="contato.html" class="is-active">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <div class="mobile-nav" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegação">
+      <div class="mobile-nav__backdrop" tabindex="-1"></div>
+      <nav class="mobile-nav__panel" aria-label="Mobile">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="fretamento.html">Fretamento</a></li>
+          <li><a href="orcamento.html">Orçamento</a></li>
+          <li><a href="frota.html">Nossa Frota</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="contato.html" class="is-active">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <section class="section section--white" style="padding-top:2.5rem">
+        <div class="container">
+          <h1 class="section__title">Contato</h1>
+          <p class="section__subtitle">
+            Envie sua mensagem — abriremos o WhatsApp com os dados preenchidos para agilizar o retorno.
+          </p>
+
+          <div class="contact-grid">
+            <div>
+              <form id="form-contato" class="form reveal-on-scroll" novalidate>
+                <div class="form__row">
+                  <label for="c-nome">Nome <span aria-hidden="true">*</span></label>
+                  <input type="text" id="c-nome" name="nome" required autocomplete="name" />
+                </div>
+                <div class="form__row">
+                  <label for="c-tel">Telefone <span aria-hidden="true">*</span></label>
+                  <input type="tel" id="c-tel" name="telefone" required autocomplete="tel" inputmode="tel" />
+                </div>
+                <div class="form__row">
+                  <label for="c-email">E-mail</label>
+                  <input type="email" id="c-email" name="email" autocomplete="email" />
+                </div>
+                <div class="form__row">
+                  <label for="c-assunto">Assunto</label>
+                  <input type="text" id="c-assunto" name="assunto" />
+                </div>
+                <div class="form__row">
+                  <label for="c-msg">Mensagem</label>
+                  <textarea id="c-msg" name="mensagem" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn--whatsapp" style="width:100%;max-width:400px">
+                  <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Enviar pelo WhatsApp
+                </button>
+                <p class="form__hint">
+                  Campos com * são obrigatórios. Os dados são usados apenas para retorno do contato, conforme nossa
+                  <a href="privacidade.html">Política de Privacidade</a>.
+                </p>
+              </form>
+            </div>
+            <div>
+              <h2 class="section__title" style="text-align:left;font-size:1.25rem;margin-bottom:1rem">Informações</h2>
+              <p>
+                <strong>Alligui Viagens e Turismo de Andira LTDA - ME</strong>
+              </p>
+              <p>
+                <i class="fa-solid fa-location-dot" style="color:var(--color-secondary)" aria-hidden="true"></i>
+                Av. Brasil (BR-369), 885 — Jardim Santo Antônio<br />
+                Andirá/PR — CEP 86380-000
+              </p>
+              <p>
+                <i class="fa-solid fa-phone" style="color:var(--color-secondary)" aria-hidden="true"></i>
+                <a href="tel:+5543996112665">(43) 99611-2665</a><br />
+                <a href="tel:+5543999284541">(43) 99928-4541</a>
+              </p>
+              <p>
+                <i class="fa-solid fa-envelope" style="color:var(--color-secondary)" aria-hidden="true"></i>
+                <a href="mailto:alliguitur@gmail.com">alliguitur@gmail.com</a>
+              </p>
+              <p>
+                <strong>Horário de atendimento</strong><br />
+                Segunda a sexta, em horário comercial — consulte disponibilidade para finais de semana e feriados.
+              </p>
+              <div class="social-links" aria-label="Redes sociais" style="margin-top:1rem">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/alliguitur/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @alliguitur"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="section__title" style="margin-top:3rem">Como chegar</h2>
+          <div class="map-embed reveal-on-scroll">
+            <iframe
+              title="Mapa — Alligui TUR, Av. Brasil 885, Andirá/PR"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Av.+Brasil,+885,+Andir%C3%A1+-+PR,+86380-000&output=embed&hl=pt-BR&z=16"
+            ></iframe>
+          </div>
+          <p class="form__hint" style="text-align: center; max-width: 560px; margin: 1rem auto 0">
+            Mapa gratuito (Google Maps embed). Se o marcador não aparecer exato, confirme o endereço no GPS: Av. Brasil, 885 — Andirá/PR.
+          </p>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container site-footer__grid">
+          <div>
+            <a
+              href="index.html"
+              class="logo logo--image logo--footer"
+              aria-label="Alligui TUR — início"
+            >
+              <img
+                src="publicas/LOGO.png"
+                alt=""
+                class="logo__img"
+                width="200"
+                height="56"
+              />
+            </a>
+            <p class="footer-brand-text">
+              <span class="footer-brand-text__title">Alligui TUR</span>
+              <span class="footer-brand-text__sub">Viagens e Turismo</span>
+            </p>
+            <p style="margin-top:1rem">Alligui Viagens e Turismo de Andira LTDA - ME.</p>
+            <div class="social-links" aria-label="Redes sociais">
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/alliguitur/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h3>Links rápidos</h3>
+            <ul>
+              <li><a href="destinos.html">Destinos</a></li>
+              <li><a href="fretamento.html">Fretamento</a></li>
+              <li><a href="orcamento.html">Orçamento</a></li>
+              <li><a href="frota.html">Nossa frota</a></li>
+              <li><a href="sobre.html">Sobre nós</a></li>
+              <li><a href="contato.html">Contato</a></li>
+              <li><a href="privacidade.html">Política de privacidade</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Contato</h3>
+            <p>Av. Brasil (BR-369), 885 — Jardim Santo Antônio<br />Andirá/PR — CEP 86380-000</p>
+            <p>
+              <a href="tel:+5543996112665">(43) 99611-2665</a><br />
+              <a href="tel:+5543999284541">(43) 99928-4541</a><br />
+              <a href="mailto:alliguitur@gmail.com">alliguitur@gmail.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="container footer-bottom">
+          <p class="mt-0">© <span class="js-year"></span> Alligui TUR — Todos os direitos reservados. · <a href="privacidade.html" style="color:inherit">Privacidade</a></p>
+        </div>
+      </footer>
+    </main>
+
+    <a class="wa-float" href="https://wa.me/5543996112665" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Alligui TUR"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+
+    <script src="assets/js/scripts.js" defer></script>
+  </body>
+</html>
